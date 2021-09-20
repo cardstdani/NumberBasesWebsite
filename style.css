@@ -1,0 +1,23 @@
+.white-color {
+  color:#ffffff;
+}
+
+.dark-color {
+  color:#181818;
+}
+
+.bold {
+  font-family: 'Gelion-bold';
+}
+
+.thin {
+  font-family: 'Gelion-thin';
+}
+
+.bold-italic {
+  font-family: 'Gelion-thin';
+}
+
+@font-face { font-family: 'Gelion-thin'; src: url('GelionFont/GELION-THIN.TTF');}
+@font-face { font-family: 'Gelion-bold-italic'; src: url('GelionFont/GELION-BOLDITALIC.TTF');}
+@font-face { font-family: 'Gelion-bold'; src: url('GelionFont/GELION-BOLD.TTF');}
