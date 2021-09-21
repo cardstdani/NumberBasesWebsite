@@ -65,14 +65,11 @@ function hexToDec(n) {
   
   for(var i = 0; i < n.length; i++) {
     var c = n[n.length - 1 - i];
-    console.log(c); 
 
     if(c.toLowerCase() != c.toUpperCase()) {
-      r += parseInt(getKeyByValue(map, c)) * Math.pow(16, i);
-      console.log(Math.pow(16, i));
+      r += parseInt(getKeyByValue(map, c.toUpperCase())) * Math.pow(16, i);
     } else {
       r += parseInt(getKeyByValue(map, parseInt(c))) * Math.pow(16, i);
-      console.log(Math.pow(16, i)); 
     }
   }
 
